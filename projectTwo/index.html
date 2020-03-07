@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/e6fa96586c.js"></script>
+    <title>🍪</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="header__column">0:00</div>
+          <div class="header__column">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-quarter"></i>
+          </div>
+        </header>
+        <main>
+          <nav class="nav">
+            <h1>Add meals</h1>
+            <ul class="nav__items">
+              <li class="nav__item">
+                <div class="item__icon">📦</div>
+                <div class="item__txt">All</div>
+              </li>
+              <li class="nav__item">
+                <div class="item__icon">🥗</div>
+                <div class="item__txt">Vego</div>
+              </li>
+              <li class="nav__item">
+                <div class="item__icon">🧇</div>
+                <div class="item__txt">Breakfast</div>
+              </li>
+              <li class="nav__item" id="nav-selected">
+                <div class="item__icon">🍪</div>
+                <div class="item__txt">Dessert</div>
+              </li>
+            </ul>
+          </nav>
+
+          <section class="featured">
+            <h2>Featured meals</h2>
+            <div class="featured__container">
+              <article class="meal">
+                <h3 class="meal__title">Mascarpone Cupcakes</h3>
+                <button class="meal__btn"><i class="fas fa-plus"></i></button>
+              </article>
+              <article class="meal">
+                <h3 class="meal__title">Churros with Chocolate Dip</h3>
+                <button class="meal__btn"><i class="fas fa-plus"></i></button>
+              </article>
+              <article class="meal">
+                <h3 class="meal__title">Lemon<br />Sponge Cake</h3>
+                <button class="meal__btn"><i class="fas fa-plus"></i></button>
+              </article>
+              <article class="meal">
+                <h3 class="meal__title">Butter Cookies</h3>
+                <button class="meal__btn"><i class="fas fa-plus"></i></button>
+              </article>
+              <article class="meal">
+                <h3 class="meal__title">Chocolate Cookies</h3>
+                <button class="meal__btn"><i class="fas fa-plus"></i></button>
+              </article>
+            </div>
+          </section>
+
+          <section class="recipes">
+            <ul class="recipes__list">
+              <li class="recipe">
+                <span class="recipe__title">Churros with Chocolate Dip</span>
+                <button class="recipe__btn"><i class="fas fa-plus"></i></button>
+              </li>
+              <li class="recipe">
+                <span class="recipe__title"
+                  >Moroccan Carrot Salad with Harissa</span
+                >
+                <button class="recipe__btn"><i class="fas fa-plus"></i></button>
+              </li>
+              <li class="recipe recipe-checked">
+                <span class="recipe__title"
+                  >Grilled Peach and Apricot Salad</span
+                >
+                <button class="recipe__btn">
+                  <i class="fas fa-check"></i>
+                </button>
+              </li>
+              <li class="recipe">
+                <span class="recipe__title"
+                  >Pasta Al Forno with Pumpkin and Pancetta</span
+                >
+                <button class="recipe__btn"><i class="fas fa-plus"></i></button>
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <ul class="footer__lists">
+            <li class="footer__list">
+              <div class="footer__icon" id="footer-selected">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="footer__txt">Explore</div>
+            </li>
+            <li class="footer__list">
+              <div class="footer__icon"><i class="fas fa-utensils"></i></div>
+              <div class="footer__txt">Meals</div>
+            </li>
+            <li class="footer__list">
+              <div class="footer__icon">
+                <i class="fas fa-cart-arrow-down"></i>
+              </div>
+              <div class="footer__txt">Shopping</div>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
