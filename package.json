@@ -14,7 +14,7 @@
   "postcss": {
     "plugins": {
       "postcss-preset-env": {
-        "stage": 0
+        "stage": 2
       }
     }
   }
